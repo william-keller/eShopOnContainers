@@ -6,6 +6,7 @@
 			 xmlns:viewModelBase="clr-namespace:eShopOnContainers.Core.ViewModels.Base;assembly=eShopOnContainers.Core"
 			 viewModelBase:ViewModelLocator.AutoWireViewModel="true"
              Title="Campaign Details">
+	
     <ContentPage.Resources>
         <ResourceDictionary>
             <converters:StringNullOrEmptyBoolConverter x:Key="StringNullOrEmptyBoolConverter" />
@@ -99,7 +100,9 @@
                 Text="VIEW SITE"
                 Style="{StaticResource CampaignViewSiteButtonStyle}">
             </Button>
+		
         </StackLayout>
+	    
         <Grid  
         ColumnSpacing="0"
         RowSpacing="0"
